@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #1C1C1C;
+}
+
+
+.main-bg {
+    background: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+}
+
+.main-color {
+    color: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+}
+
+.gray-color {
+    color: #777777;
+}
+
+.product-bg {
+    background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 100%);
+}
+
+.fresh-1-bg {
+    background: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+}
+
+.fresh-2-bg {
+    background: rgba(230, 166, 35, 0.1);
+}
+
+.fresh-3-bg {
+    background: rgba(87, 118, 57, 0.1);
+}
+
+.fresh-4-bg {
+    background: linear-gradient(90deg, #D9D9D9 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.star-color {
+    color: #FFDC64;
+}
+
+.my-shadow {
+    box-shadow: 0px 7px 50px rgba(0, 0, 0, 0.06);
+}
+
+
+@media only screen and (min-width:480px) and (max-width:639px) {
+    .home-img img {
+        width: 80%;
+    }
+}
